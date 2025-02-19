@@ -1,0 +1,125 @@
+body {
+    font-family: monospace;
+    font-size: 15px;
+    color: black;
+  }
+
+  p{
+    transition: transform 0.2;
+  }
+
+ .slider{
+  display: flex;
+  overflow-x: auto;
+  margin-top: 25px;
+  scroll-snap-type: x mandatory;
+  
+ }
+
+ .slide:nth-child(1){
+  background-image: url(https://avatars.mds.yandex.net/i?id=f99fb5cb0313d33baac2d00a41760b0a_l-8249078-images-thumbs&n=13);
+  background-size: cover;
+  background-position: center;
+}
+
+ .slide:nth-child(5){
+  background-image: url(https://i.ytimg.com/vi/JWeulA6wTv4/maxresdefault.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+ .slide:nth-child(4){
+  background-image: url(https://i.ytimg.com/vi/TRhTe-hBe38/maxresdefault.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.slide:nth-child(2){
+  background-image: url(https://3dnews.ru/assets/external/illustrations/2024/02/05/1099860/1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.slide:nth-child(3){
+  background-image: url(https://i.ytimg.com/vi/XLhMw9rVXj8/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGF8gXyhfMA8=&amp;rs=AOn4CLD4iWSiX6-cX5sR3nfpcX3PXmvk_w);
+  background-size: cover;
+  background-position: center;
+}
+
+ .slide{
+  display: flex;
+  min-width: 100vw;
+  height: 100vh;
+  background-color: aquamarine;
+  scroll-snap-align: start;
+  color: black;
+  align-items: center;
+  font-size: 100px;
+  justify-content: center;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+ }
+
+ span {
+  background-color: aqua;
+ }
+  
+  li {
+    font-style: italic;
+    color: red;
+    /*  font-weight: 400; */
+  }
+  
+  nav{
+    text-align: center;
+    align-items:  center;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    padding-top: 11px;
+  
+  }
+
+img{
+  filter: blur(5px);
+  width: 500px;
+}
+
+.a{
+  background: url(https://avatars.mds.yandex.net/i?id=c60a90c4bc976b26f2ffd8020600af6c_l-5251286-images-thumbs&n=13) no-repeat center center;
+  text-align: center;
+  align-items: center;
+  background-size: cover;
+}
+
+img:hover{
+  filter: blur(0px);
+}
+
+  .con{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    background-color: wheat;
+    color: white;
+  }
+
+  .item {
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+
+ 
+  a{
+    text-decoration: none;
+    color: white;
+    padding-inline: 20px;
+  }
+
+  a:hover{
+    color: blueviolet;
+    transition: 0.2;
+
+  }
